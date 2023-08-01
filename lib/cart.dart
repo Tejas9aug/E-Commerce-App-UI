@@ -19,7 +19,10 @@ class _cartState extends State<cart> {
     double d1 = MediaQuery.of(context).size.height;
     double d2 = MediaQuery.of(context).size.width;
 
+
     bool Value = false;
+
+
 
     Widget card(String title,String price,String status,String asset)
     {
